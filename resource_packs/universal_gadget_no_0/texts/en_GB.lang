@@ -1,0 +1,7 @@
+pack.name=universal_gadget_no_0
+pack.description=A collection of the Equosile Universal Gadgets
+
+item.eqg:universal_gadget_no_0.name=§gUniversal Gadget §aNo. 0
+item.eqg:universal_gadget_no_1_base.name=§4Raw §gUG §aNo. 1
+item.eqg:universal_gadget_no_1.name=§gUniversal Gadget §aNo. 1
+item.eqg:divine_apple.name=§gDivine Apple
