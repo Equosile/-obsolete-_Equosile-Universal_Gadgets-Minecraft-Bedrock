@@ -42,7 +42,7 @@ PERFORMANCE OF THIS SOFTWARE.
    D   : D for Diamond Block
 </pre>
 ##### 
-  - ##### 2.2. Fanal Recipe
+  - ##### 2.2. Final Recipe
     - ###### Smoker
 ### 
 - ### 3. Divine Apple
