@@ -1,6 +1,24 @@
 # Equosile-Universal Gadgets-1.19.11 Bedrock Edition
 - ## Bedrock Universal Multi-purpose Tools (tested on the 11th of August 2022)
 - ## Equosile's Gadget-Collections for Minecraft Bedrock Edition
+- ## BSD Zero Clause Licence (0BSD)
+# 
+<pre>
+The BSD Zero Clause License (0BSD)
+
+Copyright (c) [year] [company].
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+</pre>
 # 
 - ### 1. Equosile Universal Gadget No. 0
   - #### A combination amongst a pickaxe, an axe, a shovel, and a hoe
