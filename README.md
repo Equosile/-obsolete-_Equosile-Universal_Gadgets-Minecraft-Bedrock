@@ -1,8 +1,10 @@
-# Equosile-Universal Gadgets-Bedrock Edition
+# Equosile-Universal Gadgets-1.19.11 Bedrock Edition
+- ## Bedrock Universal Multi-purpose Tools (tested on the 11th of August 2022)
 - ## Equosile's Gadget-Collections for Minecraft Bedrock Edition
 # 
 - ### 1. Equosile Universal Gadget No. 0
-  - #### A combination amongst a pickaxe, an axe, a shovel, and a hoe.
+  - #### A combination amongst a pickaxe, an axe, a shovel, and a hoe
+  - #### This one tiny tool can be a pickaxe, an axe, a shovel and a hoe at the same time.
 ##### 
   - ##### 1.1. Recipe
 <pre>
