@@ -116,6 +116,83 @@
 						}
 					},
 					{
+						"block": "minecraft:fence",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:spruce_fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:birch_fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:jungle_fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:acacia_fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:dark_oak_fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence_gate",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig"
+						}
+					},
+					{
 						"block": "minecraft:sand",
 						"speed": 33,
 						"on_dig": {
@@ -407,6 +484,20 @@
 						"speed": 33,
 						"on_dig": {
 							"event": "dig"
+						}
+					},
+					{
+						"block": "minecraft:end_bricks",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig_end_bricks"
+						}
+					},
+					{
+						"block": "minecraft:end_brick_stairs",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig_endbrick_stairs"
 						}
 					},
 					{
@@ -1643,6 +1734,44 @@
 						"run_command": {
 							"command": [
 								"give @s crying_obsidian 2"
+								
+							]
+						}
+					}
+				]
+			},
+			"dig_end_bricks": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @s end_bricks 2"
+								
+							]
+						}
+					}
+				]
+			},
+			"dig_endbrick_stairs": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @s end_brick_stairs 2"
 								
 							]
 						}
