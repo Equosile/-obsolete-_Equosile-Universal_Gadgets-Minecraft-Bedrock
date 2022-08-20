@@ -40,7 +40,7 @@
 								"effect @s regeneration 333 3",
 								"effect @s absorption 333333 3",
 								"effect @s resistance 333 1",
-								"effect @s fire_resistance 333, 1"
+								"effect @s fire_resistance 333 1"
 							]
 						}
 					}

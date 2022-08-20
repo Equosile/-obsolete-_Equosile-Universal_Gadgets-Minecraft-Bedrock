@@ -41,7 +41,7 @@
 								"effect @s absorption 666666 6",
 								"effect @s resistance 666 3",
 								"effect @s speed 666 3",
-								"effect @s fire_resistance 666, 1"
+								"effect @s fire_resistance 666 1"
 							]
 						}
 					}
