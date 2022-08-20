@@ -37,10 +37,11 @@
 					{
 						"run_command": {
 							"command": [
-								"effect @s regeneration 66 6",
+								"effect @s regeneration 666 6",
 								"effect @s absorption 666666 6",
-								"effect @s resistance 66 3",
-								"effect @s speed 66 3"
+								"effect @s resistance 666 3",
+								"effect @s speed 666 3",
+								"effect @s fire_resistance 666, 1"
 							]
 						}
 					}
