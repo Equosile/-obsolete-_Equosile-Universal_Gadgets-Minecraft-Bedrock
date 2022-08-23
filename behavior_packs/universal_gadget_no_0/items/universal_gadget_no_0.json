@@ -1071,14 +1071,14 @@
 						"block": "minecraft:beehive",
 						"speed": 33,
 						"on_dig": {
-							"event": "dig"
+							"event": "dig_bee_nest"
 						}
 					},
 					{
 						"block": "minecraft:bee_nest",
 						"speed": 33,
 						"on_dig": {
-							"event": "dig"
+							"event": "dig_bee_nest"
 						}
 					},
 					{
@@ -1640,6 +1640,20 @@
 						"on_dig": {
 							"event": "dig"
 						}
+					},
+					{
+						"block": "minecraft:campfire",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig_campfire"
+						}
+					},
+					{
+						"block": "minecraft:soul_campfire",
+						"speed": 33,
+						"on_dig": {
+							"event": "dig_soul_campfire"
+						}
 					}
 				],
 				"on_dig": {
@@ -1684,7 +1698,9 @@
 								"fill ~ ~ ~ ~ ~ ~ farmland 0 replace grass -1",
 								"fill ~ ~ ~ ~ ~ ~ farmland 0 replace dirt -1",
 								"fill ~ ~ ~ ~ ~ ~ farmland 0 replace grass_path -1",
-								"fill ~ ~ ~ ~ ~ ~ dirt 0 replace dirt_with_roots -1"
+								"fill ~ ~ ~ ~ ~ ~ dirt 0 replace dirt_with_roots -1",
+								"fill ~ ~ ~ ~ ~ ~ campfire 4 replace campfire -1",
+								"fill ~ ~ ~ ~ ~ ~ soul_campfire 4 replace soul_campfire -1"
 								
 							]
 						}
@@ -1696,7 +1712,8 @@
 								"fill ~ ~ ~ ~ ~ ~ grass_path 0 replace grass -1",
 								"fill ~ ~ ~ ~ ~ ~ grass_path 0 replace dirt -1",
 								"fill ~ ~ ~ ~ ~ ~ grass_path 0 replace farmland -1",
-								"fill ~ ~ ~ ~ ~ ~ grass_path 0 replace dirt_with_roots -1"
+								"fill ~ ~ ~ ~ ~ ~ grass_path 0 replace dirt_with_roots -1",
+								"summon bee ~ ~ ~ minecraft:collected_nectar"
 								
 							]
 						}
@@ -1811,6 +1828,65 @@
 							"command": [
 								"give @s amethyst_cluster 2",
 								"give @s budding_amethyst 2"
+								
+							]
+						}
+					}
+				]
+			},
+			"dig_bee_nest": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @s bee_nest 2",
+								"give @s honey_bottle 12",
+								"give @s honeycomb 6"
+								
+							]
+						}
+					}
+				]
+			},
+			"dig_campfire": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @s campfire 2"
+								
+							]
+						}
+					}
+				]
+			},
+			"dig_soul_campfire": {
+				"sequence": [
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @s soul_campfire 2"
 								
 							]
 						}
