@@ -1,0 +1,35 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.19.10",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "eqg:universal_gadget_no_0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/no_0/universal_gadget_no_0_texture"
+			},
+			"geometry": {
+				"default": "geometry.universal_gadget_no_0"
+			},
+			"animations": {
+				"first_person": "animation.universal_gadget_no_0.firstperson",
+				"neutral": "animation.universal_gadget_no_0.neutral"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"first_person": "c.is_first_person"
+					},
+					{
+						"neutral": "!c.is_first_person"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}
