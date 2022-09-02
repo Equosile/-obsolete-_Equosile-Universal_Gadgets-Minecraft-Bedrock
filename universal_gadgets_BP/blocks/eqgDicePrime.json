@@ -1,0 +1,109 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "eqg:dice_prime",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "Construction"
+			},
+			"minecraft:display_name": "Dice Prime",
+			// obsolete syntax from 1.19.20 -> "minecraft:destructible_by_mining"
+			"minecraft:destroy_time": 1,
+			// obsolete syntax from 1.19.20 -> "minecraft:destructible_by_explosion"
+			"minecraft:explosion_resistance": 0.0,
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:light_emission": 1.0,
+			"minecraft:friction": 0.9,
+			"minecraft:geometry": "geometry.eqg_dice",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "eqgDiceTexture0",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:map_color": "#FFFFFF",
+			"minecraft:breathability": "air",
+			"minecraft:loot": "loot_tables/blocks/eqg_dice_prime_list.json",
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"condition": 1,
+					"event": "eqg:signal_ping",
+					"target": "self"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "eqg:setup",
+				"target": "self"
+			},
+			"tag:metal": {},
+			"tag:eqg:dice": {}
+		},
+		"events": {
+			"eqg:signal_ping": {
+                "sequence": [
+					{
+						"play_sound": {
+							"target": "self",
+							"sound": "eqg_ping"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"setblock ~ ~ ~ air 0 destroy"
+							
+							]
+						}
+					}
+				]
+            },
+			"eqg:setup": {
+                "sequence": [
+					{
+						"play_sound": {
+							"target": "self",
+							"sound": "eqg_ping"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"scoreboard objectives add Pip dummy",
+								"scoreboard players set @p[r=1] Pip 0",
+								"setblock ~ ~ ~ air 0 destroy",
+								"scoreboard objectives setdisplay sidebar Pip"
+							
+							]
+						}
+					}
+				]
+            }
+		}
+	}
+}

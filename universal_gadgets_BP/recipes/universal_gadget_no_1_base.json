@@ -1,0 +1,43 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eqg:universal_gadget_no_1_base"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"WNW",
+			"RAB",
+			" D "
+		],
+		"key": {
+			"W": {
+				"item": "minecraft:hay_block"
+			},
+			"A": {
+				"item": "minecraft:golden_apple"
+			},
+			"N": {
+				"item": "minecraft:netherite_block"
+			},
+			"R": {
+				"item": "minecraft:red_mushroom_block"
+			},
+			"B": {
+				"item": "minecraft:brown_mushroom_block"
+			},
+			"D": {
+				"item": "minecraft:diamond_block"
+			}
+		},
+		"result": [
+			{
+				"item": "eqg:universal_gadget_no_1_base",
+				"count": 3
+			}
+		]
+	}
+}

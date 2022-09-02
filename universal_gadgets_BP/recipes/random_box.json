@@ -1,0 +1,33 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eqg:random_box"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"OGO",
+			"GSG",
+			"OGO"
+		],
+		"key": {
+			"O": {
+				"item": "minecraft:crying_obsidian"
+			},
+			"G": {
+				"item": "minecraft:glowstone"
+			},
+			"S": {
+				"item": "minecraft:shroomlight"
+			}
+		},
+		"result": [
+			{
+				"item": "eqg:random_box"
+			}
+		]
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "universal_gadgets_BP",
+		"description": "Equosile Universal Multi-purpose Tools",
+		"uuid": "5a301ed6-251e-4aca-adfa-66d4b957f40e",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			100
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "787feb01-8072-4076-a4e3-660798ac2f24",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.3.2"
+			],
+			"dash": [
+				"0.9.28"
+			]
+		}
+	},
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "362ad79e-e085-4089-9811-90d820b4f3a5"
+		}
+	]
+}
