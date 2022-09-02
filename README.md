@@ -1,6 +1,6 @@
-# Equosile-Universal Gadgets-1.19.20 Bedrock Edition
+# Equosile-Universal Gadgets-1.19.21 Bedrock Edition
 - ## Bedrock Universal Multi-purpose Tools
-  - ### (tested on the 20th of August 2022)
+  - ### (tested on the 2nd of September 2022)
 - ## Equosile's Gadget-Collections for Minecraft Bedrock Edition
 - ## BSD Zero Clause Licence (0BSD)
 # 
@@ -54,3 +54,41 @@ PERFORMANCE OF THIS SOFTWARE.
  G A G : A for Golden Apple
  D G D
 </pre>
+###
+- ### 4. Equosile Random Box
+  - #### A random item generator used for random signal generating within item sorters
+#####
+  - ##### 4.1. Recipe
+<pre>
+ O G O : O and G for Crying Obsidian and Glowstone
+ G S G : S for Shroomlight
+ O G O
+</pre>
+###
+- ### 5. Equosile Universal Gadget No. 2
+  - #### A new type crafting bench for future update features such as amazing weapons and tools
+  - #### Currently it only functions as a random redstone signal generator.
+    - ##### It can also become a compass; the one block forward from
+      the nortern face of this block is randomly occupied by a redstone torch,
+      such that there is a random redstone signal at that point.
+#####
+  - ##### 5.1. Recipe
+<pre>
+ E C E : E and C for Enchanting Table and Crafting Table
+ C D C : D for Equosile Random Box
+ E C E
+</pre>
+###
+- ### 6. Equosile Dice
+  - #### The very first ever existing DICE in Bedrock Edition (at least where I have acknowledged so far)
+  - #### It can technically become a random number generator.
+    - ##### Scoreboard declared as "Pip" can store a random integer of which the range is from 1 to 6.
+    - ##### In order to claim this random number, the block interaction with a dice is needed.
+    - ##### e.g. Earning 4 Pip-score from right-clicking the Tetrapip-dice
+#####
+  - ##### 6.1. Recipe in Inventory (or Crafting Table)
+    - ###### Equosile Random Box -> 3 * Dice
+#####
+  - ##### 6.2. As for the each Pip (rolling a dice causing a random result)
+    - ###### Throw (Default: Pressing 'Q') the Dice Prime.
+    - ###### Install the Dice Prime on ground and right-click it.
