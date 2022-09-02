@@ -76,7 +76,10 @@
 					{
 						"run_command": {
 							"command": [
-								"setblock ~ ~ ~ air 0 destroy"
+								"scoreboard objectives add Pip dummy",
+								"scoreboard players set @p[r=1] Pip 0",
+								"setblock ~ ~ ~ air 0 destroy",
+								"scoreboard objectives setdisplay sidebar Pip"
 							
 							]
 						}
