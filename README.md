@@ -57,6 +57,15 @@ PERFORMANCE OF THIS SOFTWARE.
 ###
 - ### 4. Equosile Random Box
   - #### A random item generator used for random signal generating within item sorters
+  - #### The current looting-pool is as follows:
+<pre>
+ Block of Diamond        Block of Emerald        3 * Block of Gold
+ Block of Netherite      Block of Lapis Lazuli   3 * Block of Redstone
+ 64 * Red Sand           Crying Obsidian         9 * Glowstone
+ 3 * Shroomlight
+</pre>
+  - #### Therefore, the itemsorter with this Random Box can be
+  - a random signal generator of the decimal system.
 #####
   - ##### 4.1. Recipe
 <pre>
@@ -68,9 +77,11 @@ PERFORMANCE OF THIS SOFTWARE.
 - ### 5. Equosile Universal Gadget No. 2
   - #### A new type crafting bench for future update features such as amazing weapons and tools
   - #### Currently it only functions as a random redstone signal generator.
-    - ##### It can also become a compass; the one block forward from
-      the nortern face of this block is randomly occupied by a redstone torch,
-      such that there is a random redstone signal at that point.
+<pre>
+ It can also become a compass; the one block forward from
+ the nortern face of this block is randomly occupied by a redstone torch,
+ such that there is a random redstone signal at that point.
+</pre>
 #####
   - ##### 5.1. Recipe
 <pre>
@@ -82,9 +93,11 @@ PERFORMANCE OF THIS SOFTWARE.
 - ### 6. Equosile Dice
   - #### The very first ever existing DICE in Bedrock Edition (at least where I have acknowledged so far)
   - #### It can technically become a random number generator.
-    - ##### Scoreboard declared as "Pip" can store a random integer of which the range is from 1 to 6.
-    - ##### In order to claim this random number, the block interaction with a dice is needed.
-    - ##### e.g. Earning 4 Pip-score from right-clicking the Tetrapip-dice
+<pre>
+ The scoreboard declared as "Pip" can store a random integer of which the range is from 1 to 6.
+ In order to claim this random number, the block interaction with a dice is needed.
+ e.g. Earning 4 Pip-score from right-clicking the Tetrapip-dice
+</pre>
 #####
   - ##### 6.1. Recipe in Inventory (or Crafting Table)
     - ###### Equosile Random Box -> 3 * Dice
