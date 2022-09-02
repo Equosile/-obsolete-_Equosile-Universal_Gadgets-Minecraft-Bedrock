@@ -64,7 +64,7 @@ PERFORMANCE OF THIS SOFTWARE.
  64 * Red Sand           Crying Obsidian         9 * Glowstone
  3 * Shroomlight
 </pre>
-  - #### Therefore, the itemsorter with this Random Box can be
+  - #### Therefore, the item sorter with this Random Box can be
   - a random signal generator of the decimal system.
 #####
   - ##### 4.1. Recipe
