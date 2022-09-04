@@ -1,0 +1,46 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eqg:universal_gadget_no_2_base"
+		},
+		"tags": [
+			"eqg_no0_craft"
+		],
+		"pattern": [
+			"HSH",
+			"RAB",
+			"WCW"
+		],
+		"key": {
+			"H": {
+				"item": "minecraft:hay_block"
+			},
+			"S": {
+				"item": "minecraft:shroomlight"
+			},
+			"R": {
+				"item": "minecraft:red_mushroom_block"
+			},
+			"B": {
+				"item": "minecraft:brown_mushroom_block"
+			},
+			"A": {
+				"item": "eqg:divine_apple"
+			},
+			"W": {
+				"item": "minecraft:web"
+			},
+			"C": {
+				"item": "minecraft:magma_cream"
+			}
+		},
+		"result": [
+			{
+				"item": "eqg:universal_gadget_no_2_base",
+				"count": 3
+			}
+		]
+	}
+}

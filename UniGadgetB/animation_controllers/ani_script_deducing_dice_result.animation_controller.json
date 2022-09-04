@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.deducing_dice_result": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"on_entry": [
+						"/particle minecraft:falling_dust_top_snow_particle ~ ~1 ~",
+						"/particle minecraft:falling_dust_top_snow_particle ~ ~1 ~",
+						"/particle minecraft:falling_dust_top_snow_particle ~ ~1 ~",
+						"/particle minecraft:falling_dust_top_snow_particle ~ ~1 ~",
+						"/particle minecraft:falling_dust_top_snow_particle ~ ~1 ~",
+						"/particle minecraft:falling_dust_top_snow_particle ~ ~1 ~",
+						"/execute @e[type=eqg:dummy_dice_result, name=dice_result, r=8] ~ ~ ~ kill @e[type=eqg:dummy_dice_result, name=dice_result, r=2]"
+						
+					]
+				}
+			}
+		}
+	}
+}
