@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.universal_gadget_no_1.firstperson": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"bone": {
+					"rotation": [35.59322, 56.125, -18.84962],
+					"position": [14, -5, 13]
+				},
+				"circulation": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.0": [0, 0, 359.9]
+					}
+				}
+			}
+		},
+		"animation.universal_gadget_no_1.neutral": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"circulation": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.0": [0, 0, 359.9]
+					}
+				}
+			}
+		}
+	}
+}

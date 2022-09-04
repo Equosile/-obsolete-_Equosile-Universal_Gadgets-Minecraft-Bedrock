@@ -1,0 +1,10 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"equosile.ping": {
+			"category": "neutral",
+			"max_distance": 16.0,
+			"sounds": ["sounds/equosile-ping"]
+		}
+	}
+}

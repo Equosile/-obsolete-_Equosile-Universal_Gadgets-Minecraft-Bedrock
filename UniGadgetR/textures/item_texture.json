@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "universal_gadgets_RP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"universal_gadget_no_0": {
+			"textures": "textures/items/universal_gadget_no_0"
+		},
+		"universal_gadget_no_1": {
+			"textures": "textures/items/universal_gadget_no_1"
+		},
+		"universal_gadget_no_2": {
+			"textures": "textures/items/universal_gadget_no_2"
+		},
+		"universal_gadget_no_2_base": {
+			"textures": "textures/items/universal_gadget_no_2_base"
+		},
+		"divine_apple": {
+			"textures": "textures/items/divine_apple"
+		}
+	}
+}
