@@ -1,0 +1,36 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eqg:universal_gadget_no_1"
+		},
+		"tags": [
+			"eqg_no0_craft"
+		],
+		"pattern": [
+			"NNN",
+			"DDD",
+			"GIG"
+		],
+		"key": {
+			"N": {
+				"item": "minecraft:netherite_block"
+			},
+			"D": {
+				"item": "minecraft:diamond_block"
+			},
+			"G": {
+				"item": "minecraft:gold_block"
+			},
+			"I": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"result": [
+			{
+				"item": "eqg:universal_gadget_no_1"
+			}
+		]
+	}
+}

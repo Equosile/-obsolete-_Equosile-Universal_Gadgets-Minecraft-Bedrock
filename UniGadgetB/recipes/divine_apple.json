@@ -1,0 +1,35 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "eqg:divine_apple"
+		},
+		"tags": [
+			"crafting_table",
+			"eqg_no0_craft"
+		],
+		"pattern": [
+			"DGD",
+			"GAG",
+			"DGD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:golden_apple"
+			},
+			"D": {
+				"item": "minecraft:diamond_block"
+			},
+			"G": {
+				"item": "minecraft:gold_block"
+			}
+		},
+		"result": [
+			{
+				"item": "eqg:divine_apple",
+				"count": 3
+			}
+		]
+	}
+}
