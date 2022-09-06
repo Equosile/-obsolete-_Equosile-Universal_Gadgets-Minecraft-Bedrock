@@ -1,0 +1,25 @@
+pack.name=Universal Gadgets RP
+pack.description=Equosile Universal Multi-purpose Tools
+
+item.eqg:random_box=§g? §a??
+tile.???.name=§g? §a??
+item.eqg:universal_gadget_no_0=§gUniversal Gadget §aNo. 0
+tile.Universal Gadget No. 0.name=§gUniversal Gadget §aNo. 0
+item.eqg:universal_gadget_no_1=§gUniversal Gadget §aNo. 1
+item.eqg:universal_gadget_no_2_base=§4Raw §gUG §aNo. 2
+item.eqg:universal_gadget_no_2=§gUniversal Gadget §aNo. 2
+item.eqg:divine_apple=§gDivine Apple
+item.eqg:dice_prime=§gDice §aPrime
+tile.Dice Prime.name=§gDice §aPrime
+item.eqg:dice_monopip=§gDice §aMonopip
+tile.Dice Monopip.name=§gDice §aMonopip
+item.eqg:dice_dipips=§gDice §aDipips
+tile.Dice Dipips.name=§gDice §aDipips
+item.eqg:dice_tripips=§gDice §aTripips
+tile.Dice Tripips.name=§gDice §aTripips
+item.eqg:dice_tetrapips=§gDice §aTetrapips
+tile.Dice Tetrapips.name=§gDice §aTetrapips
+item.eqg:dice_pentapips=§gDice §aPentapips
+tile.Dice Pentapips.name=§gDice §aPentapips
+item.eqg:dice_hexapips=§gDice §aHexapips
+tile.Dice Hexapips.name=§gDice §aHexapips
