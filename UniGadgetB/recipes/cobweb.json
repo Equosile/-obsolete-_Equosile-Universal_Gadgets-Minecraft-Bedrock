@@ -1,0 +1,31 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:web"
+		},
+		"tags": [
+			"crafting_table",
+			"eqg_no0_craft"
+		],
+		"pattern": [
+			"WWW",
+			"WSW",
+			"WWW"
+		],
+		"key": {
+			"W": {
+				"item": "minecraft:string"
+			},
+			"S": {
+				"item": "minecraft:slime_ball"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:web"
+			}
+		]
+	}
+}
