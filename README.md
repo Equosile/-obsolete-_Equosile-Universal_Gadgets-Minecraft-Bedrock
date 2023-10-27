@@ -1,4 +1,4 @@
-# Equosile Universal Gadgets
+# (Obsolete) Equosile Universal Gadgets
 # 1.19.22 Bedrock Edition
 # Version 1.0.0.2 (2022-09-06)
 - ## Bedrock Universal Multi-purpose Tools Version 1.0.0.2
